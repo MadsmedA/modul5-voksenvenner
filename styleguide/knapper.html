@@ -41,6 +41,73 @@
             </ul>
         </nav>
     </div>
+
+    <main>
+        <h2>Knapper</h2>
+        <div class="knapper-container">
+            <div>
+                <h3>Standard knap</h3>
+                <p>Bruges når...</p>
+                <button>Tilmeld</button>
+                <code>
+                    <div>
+                        HTML:
+                        <br>
+                        &ltbutton&gtTilmeld&lt/button&gt
+                    </div>
+                    <div>
+                        CSS:
+                        <br>
+                        .knapper-container button { <br>
+                            background-color: var(--sec-color); <br>
+                            border: none; <br>
+                            margin: 10px 0; <br>
+                            width: fit-content; <br>
+                            padding: 10px 15px; <br>
+                            color: white; <br>
+                            cursor: pointer; <br>
+                          }
+                    </div>
+                </code>
+            </div>
+
+            <div>
+                <h3>Rund knap</h3>
+                <p>Bruges når...</p>
+                <button class="rnd">Bliv voksenven</button>
+                <code>
+                    <div>
+                        HTML: 
+                        <br>
+                        &ltbutton class="rnd"&gtBliv voksenven&lt/button&gt
+                    </div>
+                    <div>
+                        CSS:
+                        <br>
+                        .knapper-container button.rnd {border-radius: 20px;}
+                    </div>
+                </code>
+            </div>
+
+            <div>
+                <h3>Søg knap</h3>
+                <p>Bruges når...</p>
+                <button class="search">Søg</button>
+                <code>
+                    <div>
+                        HTML: 
+                        <br>
+                        &ltbutton class="search"&gtSøg&lt/button&gt
+                    </div>
+                    <div>
+                        CSS:
+                        <br>
+                        .knapper-container button.search {background-color: var(--prim-color);}
+                    </div>
+                </code>
+            </div>
+        </div>
+    </main>
 </body>
 
 </html>

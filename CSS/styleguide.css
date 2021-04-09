@@ -37,12 +37,6 @@ h4 {
   font-size: 20px;
 }
 
-.main {
-  margin-left: 200px;
-  padding: 15px 0px 0px 75px;
-  height: 100vh;
-}
-
 .titel h1 {
   color: #e30c17;
   padding-top: 25px;
@@ -127,7 +121,9 @@ nav ul li:hover div {
 }
 
 main {
-  padding: 40px 0 0 250px;
+  margin: 40px 0 0 250px;
+  /* padding: 15px 0px 0px 75px; */
+  height: 100vh;
 }
 
 .farver h2 {
@@ -147,8 +143,6 @@ main {
 .farver > * {
   padding-right: 25px;
 }
-
-
 
 .colorbox {
     margin-top: 25px;
@@ -244,3 +238,60 @@ main {
                 0 2px 4px rgba(0,0,0,0.07),
                 0 4px 8px rgba(0,0,0,0.07);
   }
+
+.knapper-container {
+  display: flex;
+  flex-direction: column;
+}
+
+.knapper-container div {
+  display: flex;
+  flex-direction: column;
+  margin: 20px 0;
+}
+
+.knapper-container div p {
+  margin: 10px 0 5px;
+}
+
+.knapper-container button {
+  background-color: var(--sec-color);
+  border: none;
+  margin: 10px 0;
+  width: fit-content;
+  padding: 10px 15px;
+  color: white;
+  cursor: pointer;
+}
+
+.knapper-container button:focus {
+  outline: none;
+}
+
+.knapper-container button.rnd {
+  border-radius: 20px;
+}
+
+.knapper-container button.search {
+  background-color: var(--prim-color);
+}
+
+.knapper-container div code {
+  background-color: rgb(112, 112, 112);
+  color: white;
+  width: 70vw;
+  border-radius: 12px;
+  padding: 0 15px;
+  display: flex;
+  justify-content: space-around;
+}
+
+
+.knapper-container div code div {
+  width: 50%;
+  padding-left: 10px;
+}
+
+.knapper-container div code div:first-child {
+  border-right: white solid 1px;
+}
