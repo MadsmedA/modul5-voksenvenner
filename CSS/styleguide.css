@@ -126,10 +126,8 @@ nav ul li:hover div {
     display: block;
 }
 
-
-.farver {
-  margin-top: 40px;
-  height: 700px;
+main {
+  padding: 40px 0 0 250px;
 }
 
 .farver h2 {
