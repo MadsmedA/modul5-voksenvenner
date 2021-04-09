@@ -2,6 +2,8 @@
 
 * {
     box-sizing: border-box;
+    margin: 0px;
+    padding: 0px;
 }
 
 :root {
@@ -11,22 +13,53 @@
 
 body {
     font-family: 'Source Sans Pro', Arial, sans-serif;
-    background-color: #fff;
+    background-color: #f6f6f6;
     margin: 0;
 }
 
-nav {
-    background-color: var(--prim-color);
-    border-right: 2px solid rgba(200, 200, 200, 0.1);
-    color: white;
-    position: fixed;
-    top: 0;
-    left: 0;
-    width: 200px;
-    height: 100vh;
-    z-index: 100;
-    /* transform: translateX(-100%); */
+h1 {
+    font-size: 50px;
+    color: #e30c17;
 }
+
+h2 {
+  font-size: 35px;
+  color: #00a0df;
+}
+
+h3 {
+  font-size: 25px;
+  font-family: 'Arial';
+  font-weight: bold;
+}
+
+h4 {
+  font-size: 20px;
+}
+
+.main {
+  margin-left: 200px;
+  padding: 15px 0px 0px 75px;
+  height: 100vh;
+}
+
+.titel h1 {
+  color: #e30c17;
+  padding-top: 25px;
+}
+
+.navbar-container {
+  width: 200px;
+  height: 100vh;
+  background-color: var(--prim-color);
+  border-right: 2px solid rgba(200, 200, 200, 0.1);
+  position: fixed;
+  color: white;
+  top: 0;
+  left: 0;
+  z-index: 1;
+}
+
 
 nav .logo {
     padding: 30px 0;
@@ -37,7 +70,7 @@ nav .logo img {
     width: 90%;
 }
 
-nav p {
+.navbar-container nav p {
     padding-left: 20px;
     font-size: 20px;
 }
@@ -46,7 +79,7 @@ nav ul {
     padding: 0;
     list-style-type: none;
     margin: 0;
-    
+
 }
 
 nav ul li {
@@ -92,3 +125,117 @@ nav ul li a {
 nav ul li:hover div {
     display: block;
 }
+
+
+.farver {
+  margin-top: 40px;
+  height: 700px;
+}
+
+.farver h2 {
+    color: #00A0DF;
+}
+
+.farver h3 {
+  margin-top: 20px;
+}
+
+.farver p {
+  font-size: 15px;
+  margin-top: 5px;
+  text-transform: uppercase;
+}
+
+.farver > * {
+  padding-right: 25px;
+}
+
+
+
+.colorbox {
+    margin-top: 25px;
+    margin-right: 25px;
+    height: 200px;
+    width: 200px;
+    background-color: #fff;
+    display: inline-block;
+    position: relative;
+    border-radius: 25px;
+    box-shadow: 0 1px 2px rgba(0,0,0,0.07),
+                0 2px 4px rgba(0,0,0,0.07),
+                0 4px 8px rgba(0,0,0,0.07);
+  }
+
+  .colorbox:hover {
+    transform: scale(1.25);
+  }
+
+  .colorname {
+    margin: 10px 0px 0px 10px;
+  }
+
+  .rød {
+    margin-left: 10px;
+    width: 180px;
+    height: 100px;
+    background-color: #e30c17;
+  }
+
+  .sort {
+    margin-left: 10px;
+    width: 180px;
+    height: 100px;
+    background-color: #000;
+  }
+
+  .primær-tekstholder-blå {
+    margin-left: 10px;
+    width: 180px;
+    height: 100px;
+    background-color: #00a0df;
+  }
+
+
+  .orange {
+    margin-left: 10px;
+    width: 180px;
+    height: 100px;
+    background-color: #f27f1a;
+  }
+
+  .violet {
+    margin-left: 10px;
+    width: 180px;
+    height: 100px;
+    background-color: #c126b8;
+  }
+
+  .grøn {
+    margin-left: 10px;
+    width: 180px;
+    height: 100px;
+    background-color: #3bd42e;
+  }
+
+  .typografi {
+    margin-top: 25px;
+    height: 750px;
+  }
+
+  .første-header-container {
+    display: flex;
+  }
+
+  .header-container {
+    margin-top: 25px;
+    margin-right: 25px;
+    vertical-align: top;
+    text-align: center;
+    width: 200px;
+    height: 100px;
+    background-color: #fff;
+    border-radius: 25px;
+    box-shadow: 0 1px 2px rgba(0,0,0,0.07),
+                0 2px 4px rgba(0,0,0,0.07),
+                0 4px 8px rgba(0,0,0,0.07);
+  }
