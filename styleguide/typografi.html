@@ -10,82 +10,115 @@
 </head>
 
 <body>
-    <div class="navbar-container">
-        <nav>
-            <div class="logo">
-                <img src="../img/Logo_BVV_Red_RGB.png" alt="Logo til Børns Voksenvenner">
-            </div>
-            <p>Style Guide</p>
-            <ul>
+    <nav>
+        <div class="logo">
+            <img src="../img/Logo_BVV_Red_RGB.png" alt="Logo til Børns Voksenvenner">
+        </div>
+        <p>Style Guide</p>
+        <ul>
 
-                <li>
-                    <div></div><a href="index.html">Forside</a>
-                </li>
+            <li>
+                <div></div><a href="index.html">Forside</a>
+            </li>
 
-                <li>
-                    <div></div><a href="grafik.html">Grafiske elementer</a>
-                </li>
+            <li>
+                <div></div><a href="grafik.html">Grafiske elementer</a>
+            </li>
 
-                <li>
-                    <div></div><a href="img.html">Billeder</a>
-                </li>
+            <li>
+                <div></div><a href="img.html">Billeder</a>
+            </li>
 
-                <li>
-                    <div class="selected"></div><a href="typografi.html">Typografi</a>
-                </li>
+            <li>
+                <div class="selected"></div><a href="typografi.html">Typografi</a>
+            </li>
 
-                <li>
-                    <div></div><a href="farver.html">Farver</a>
-                </li>
+            <li>
+                <div></div><a href="farver.html">Farver</a>
+            </li>
 
-                <li>
-                    <div></div><a href="knapper.html">Knapper</a>
-                </li>
+            <li>
+                <div></div><a href="knapper.html">Knapper</a>
+            </li>
 
-                <li>
-                    <div></div><a href="farver.html">Roll Down</a>
-                </li>
-            </ul>
-        </nav>
-    </div>
+            <li>
+                <div></div><a href="farver.html">Roll Down</a>
+            </li>
+        </ul>
+    </nav>
 
     <main>
-        <div class="typografi">
-            <h2>Typografi</h2>
+        <h2>Typografi</h2>
+        <div class="container">
+            <div>
+                <h3>Import af typografi</h3>
+                <p>Fonten 'Source Sans Pro' bruges til samtlige typer tekst.</p>
+                <code>
+                    <div>
+HTML: 
+---
+                    </div>
+                    <div>
+CSS: 
+@import url('https://fonts.googleapis.com/css2?family=Source+Sans+Pro&display=swap');
 
-            <div class="første-header-container">
-                <div class="header-container">
-                    <h1>Header 1</h1>
-                    <p>Source Sans Pro, 50px</p>
-                </div>
-
-                <div class="header-container">
-                    <h2>header 2</h2>
-                    <p>Source Sans Pro, 35px</p>
-                </div>
-
-                <div class="header-container">
-                    <h3>header 3</h3>
-                    <p>Source Sans Pro, 25px</p>
-                </div>
+body {
+    font-family: 'Source Sans Pro', Arial, sans-serif;
+}                     
+                    </div>
+                </code>
+            </div>
+            <div>
+                <h1>Header 1</h1>
+                <p>Bruges udelukkende til forsidens titel.</p>
+                <code>
+                    <div>
+HTML:
+&lth1&gtLorem ipsum dolor sit amet.&lt/h1&gt
+                    </div>
+                    <div>
+CSS:
+h1
+    font-size: 50p
+    color: #e30c1
+}
+                    </div>
+                </code>
             </div>
 
-            <div class="første-header-container">
-                <div class="header-container">
-                    <h4>header 4</h4>
-                    <p>Source Sans Pro, 25px</p>
-                </div>
-
-                <div class="header-container">
-                    <h5>header 5</h5>
-                    <p>Source Sans Pro, 25px</p>
-                </div>
-
-                <div class="header-container">
-                    <h6>header 6</h6>
-                    <p>Source Sans Pro, 25px</p>
-                </div>
+            <div>
+                <h2>Side-overskrift</h2>
+                <p>Bruges som overskrift til hver underside.</p>
+                <code>
+                    <div>
+HTML: 
+&lth2&gtLorem ipsum dolor sit amet.&lth2&gt
+                    </div>
+                    <div>
+CSS:
+h2
+    font-size: 35p
+    color: #00a0d
+  }
+                    </div>
+                </code>
             </div>
+
+            <div>
+                <h3>Afsnit-overskrift</h3>
+                <p>Bruges som overskrift til afsnit på en underside.</p>
+                <code>
+                    <div>
+HTML: 
+&lth3&Lorem ipsum dolor sit amet.&lt/h3&gt
+                    </div>
+                    <div>
+CSS:
+.knapper-container button.search {background-color: var(--prim-color);}
+                    </div>
+                </code>
+            </div>
+        </div>
     </main>
 </body>
 

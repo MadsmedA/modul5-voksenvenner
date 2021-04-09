@@ -10,37 +10,92 @@
 </head>
 
 <body>
-    <div class="navbar-container">
-        <nav>
-            <div class="logo">
-                <img src="../img/Logo_BVV_Red_RGB.png" alt="Logo til Børns Voksenvenner">
+    <nav>
+        <div class="logo">
+            <img src="../img/Logo_BVV_Red_RGB.png" alt="Logo til Børns Voksenvenner">
+        </div>
+        <p>Style Guide</p>
+        <ul>
+            <li>
+                <div></div><a href="index.html">Forside</a>
+            </li>
+            <li>
+                <div class="selected"></div><a href="grafik.html">Grafiske elementer</a>
+            </li>
+            <li>
+                <div></div><a href="img.html">Billeder</a>
+            </li>
+            <li>
+                <div></div><a href="typografi.html">Typografi</a>
+            </li>
+            <li>
+                <div></div><a href="farver.html">Farver</a>
+            </li>
+            <li>
+                <div></div><a href="knapper.html">Knapper</a>
+            </li>
+            <li>
+                <div></div><a href="farver.html">Roll Down</a>
+            </li>
+        </ul>
+    </nav>
+
+    <main>
+        <h2>Grafiske elementer</h2>
+        <div class="container">
+            <div>
+                <h3>Tekstholder</h3>
+                <p>Bruges når...</p>
+                <div class="txt-holder-container">
+                    <div class="txt-holder">
+                        <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Et quis quidem sint atque expedita
+                            iusto
+                            aliquid eos magni dicta voluptate, quaerat doloribus porro unde nisi!</p>
+                    </div>
+                    <div class="arrow-down"></div>
+                </div>
+                <code>
+                    <div>
+HTML:
+&ltdiv&gt
+    &ltdiv class="txt-holder-container"&gt
+        &ltp&gtLorem ipsum dolor sit amet.&ltp&gt
+    &lt/div&gt
+    &ltdiv class="arrow-down"&gt&lt/div&gt
+&lt/div&gt
+                    </div>
+                    <div>
+CSS:
+.container div .txt-holder-container {
+    margin: 0 0 40px;
+    position: relative;
+    width: fit-content;
+  }
+  
+  .container div .txt-holder {
+    max-width: 300px;
+    background-color: var(--prim-color);
+    color: white;
+    padding: 15px;
+    margin: 0;
+  }
+  
+  .container div .arrow-down {
+    position: absolute;
+    bottom: -60px;
+    right: 100px;
+    width: 0; 
+    height: 0; 
+    border-left: 40px solid transparent;
+    border-right: 0px solid transparent;
+    
+    border-top: 40px solid var(--prim-color);
+  }
+                    </div>
+                </code>
             </div>
-            <p>Style Guide</p>
-            <ul>
-                <li>
-                    <div></div><a href="index.html">Forside</a>
-                </li>
-                <li>
-                    <div class="selected"></div><a href="grafik.html">Grafiske elementer</a>
-                </li>
-                <li>
-                    <div></div><a href="img.html">Billeder</a>
-                </li>
-                <li>
-                    <div></div><a href="typografi.html">Typografi</a>
-                </li>
-                <li>
-                    <div></div><a href="farver.html">Farver</a>
-                </li>
-                <li>
-                    <div></div><a href="knapper.html">Knapper</a>
-                </li>
-                <li>
-                    <div></div><a href="farver.html">Roll Down</a>
-                </li>
-            </ul>
-        </nav>
-    </div>
+        </div>
+    </main>
 </body>
 
 </html>

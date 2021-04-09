@@ -10,99 +10,92 @@
 </head>
 
 <body>
-    <div class="navbar-container">
-        <nav>
-            <div class="logo">
-                <img src="../img/Logo_BVV_Red_RGB.png" alt="Logo til Børns Voksenvenner">
-            </div>
-            <p>Style Guide</p>
-            <ul>
-                <li>
-                    <div></div><a href="index.html">Forside</a>
-                </li>
-                <li>
-                    <div></div><a href="grafik.html">Grafiske elementer</a>
-                </li>
-                <li>
-                    <div></div><a href="img.html">Billeder</a>
-                </li>
-                <li>
-                    <div></div><a href="typografi.html">Typografi</a>
-                </li>
-                <li>
-                    <div></div><a href="farver.html">Farver</a>
-                </li>
-                <li>
-                    <div class="selected"></div><a href="knapper.html">Knapper</a>
-                </li>
-                <li>
-                    <div></div><a href="farver.html">Roll Down</a>
-                </li>
-            </ul>
-        </nav>
-    </div>
+    <nav>
+        <div class="logo">
+            <img src="../img/Logo_BVV_Red_RGB.png" alt="Logo til Børns Voksenvenner">
+        </div>
+        <p>Style Guide</p>
+        <ul>
+            <li>
+                <div></div><a href="index.html">Forside</a>
+            </li>
+            <li>
+                <div></div><a href="grafik.html">Grafiske elementer</a>
+            </li>
+            <li>
+                <div></div><a href="img.html">Billeder</a>
+            </li>
+            <li>
+                <div></div><a href="typografi.html">Typografi</a>
+            </li>
+            <li>
+                <div></div><a href="farver.html">Farver</a>
+            </li>
+            <li>
+                <div class="selected"></div><a href="knapper.html">Knapper</a>
+            </li>
+            <li>
+                <div></div><a href="farver.html">Roll Down</a>
+            </li>
+        </ul>
+    </nav>
 
     <main>
         <h2>Knapper</h2>
-        <div class="knapper-container">
+        <div class="container">
             <div>
-                <h3>Standard knap</h3>
-                <p>Bruges når...</p>
+                <h3>CTA-knap</h3>
                 <button>Tilmeld</button>
+                <p>Bruges når...</p>
                 <code>
                     <div>
-                        HTML:
-                        <br>
-                        &ltbutton&gtTilmeld&lt/button&gt
+HTML:
+&ltbutton&gtTilmeld&lt/button&gt
                     </div>
                     <div>
-                        CSS:
-                        <br>
-                        .knapper-container button { <br>
-                            background-color: var(--sec-color); <br>
-                            border: none; <br>
-                            margin: 10px 0; <br>
-                            width: fit-content; <br>
-                            padding: 10px 15px; <br>
-                            color: white; <br>
-                            cursor: pointer; <br>
-                          }
+CSS:
+.knapper-container button {
+    background-color: var(--sec-color);
+    border: none;
+    border-radius: 6px;
+    margin: 10px 0;
+    width: fit-content;
+    padding: 10px 15px;
+    color: white;
+    cursor: pointer;
+}
                     </div>
                 </code>
             </div>
 
             <div>
-                <h3>Rund knap</h3>
+                <h3>Firkantet knap</h3>
+                <button class="sqr">Bliv voksenven</button>
                 <p>Bruges når...</p>
-                <button class="rnd">Bliv voksenven</button>
                 <code>
                     <div>
-                        HTML: 
-                        <br>
-                        &ltbutton class="rnd"&gtBliv voksenven&lt/button&gt
+HTML: 
+&ltbutton class="rnd"&gtBliv voksenven&lt/button&gt
                     </div>
                     <div>
-                        CSS:
-                        <br>
-                        .knapper-container button.rnd {border-radius: 20px;}
+CSS:
+.knapper-container button.rnd {border-radius: 20px;}
                     </div>
                 </code>
             </div>
 
             <div>
-                <h3>Søg knap</h3>
-                <p>Bruges når...</p>
+                <h3>Søgeknap</h3>
                 <button class="search">Søg</button>
+                <p>Bruges når...</p>
                 <code>
                     <div>
-                        HTML: 
-                        <br>
-                        &ltbutton class="search"&gtSøg&lt/button&gt
+HTML: 
+&ltbutton class="search"&gtSøg&lt/button&gt
                     </div>
                     <div>
-                        CSS:
-                        <br>
-                        .knapper-container button.search {background-color: var(--prim-color);}
+CSS:
+.knapper-container button.search {background-color: var(--prim-color);}
                     </div>
                 </code>
             </div>
