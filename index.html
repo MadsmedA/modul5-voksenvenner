@@ -6,6 +6,10 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link rel="stylesheet" href="CSS/style.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.3/css/all.min.css"
+        integrity="sha512-iBBXm8fW90+nuLcSKlbmrPcLa0OT92xO1BIsZ+ywDWZCvqsWgccV3gFoRBv0z+8dLJgyAHIhR35VZc2oM/gI1w=="
+        crossorigin="anonymous" />
+    <script src="script.js" defer></script>
     <title>Bliv voksenven</title>
 </head>
 
@@ -13,15 +17,35 @@
     <header>
         <div class="header-container">
             <div>
-                <img src="img/logo.png" alt="">
+                <a href="index.html"><img src="img/logo-hvid-tekst.png" alt="Logo"></a>
             </div>
-            <!-- <h1>Børns Voksenvenner</h1> -->
             <nav>
-                <ul>
-                    <li><a href="#">1</a></li>
-                    <li><a href="#">2</a></li>
-                    <li><a href="#">3</a></li>
-                </ul>
+                <div class="dropdown">
+                    <button class="dropdownbtn">Bliv frivillig</button>
+                    <i class="fas fa-chevron-down"></i>
+                    <div class="dropdown-content">
+                        <a href="">Bliv voksenven</a>
+                        <a href="">Godkendelsesproces</a>
+                        <a href="">Om vores børn og deres familier</a>
+                    </div>
+                </div>
+                <div class="dropdown">
+                    <button class="dropdownbtn">Om os</button>
+                    <i class="fas fa-chevron-down"></i>
+                    <div class="dropdown-content">
+                        <a href="">Vision og mission</a>
+                        <a href="">Presse, materialer og omtale</a>
+                        <a href="">Nyheder og nyhedsbreve</a>
+                    </div>
+                </div>
+                <div class="dropdown">
+                    <button class="dropdownbtn">Kontakt</button>
+                    <i class="fas fa-chevron-down"></i>
+                    <div class="dropdown-content">
+                        <a href="">Lokalt</a>
+                        <a href="">Områdekontorer</a>
+                    </div>
+                </div>
             </nav>
         </div>
     </header>
