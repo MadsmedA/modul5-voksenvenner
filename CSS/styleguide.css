@@ -324,3 +324,26 @@ main {
   
   border-top: 40px solid var(--prim-color);
 }
+
+main .ikoner {
+  display: flex;
+  flex-direction: column;
+}
+
+main .ikoner div {
+  margin-top: 25px;
+}
+
+main .ikoner img {
+  width: 150px;
+}
+
+main .ikon {
+  display: flex;
+  align-items: center;
+  margin-top: 25px;
+}
+
+main .ikon p {
+  margin-left: 20px;
+}
