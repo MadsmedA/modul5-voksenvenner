@@ -136,14 +136,37 @@ footer {
 }
 
 footer .footer-container {
-  width: 1200px;
+  width: 1000px;
   display: flex;
   flex-direction: row;
   justify-content: space-between;
 }
 
+.medie-container {
+  position: relative;
+}
+
+.ikon-container {
+  display: flex;
+  flex-direction: row;
+  position: absolute;
+  top: 0;
+  right: 0;
+}
+
 footer img {
-  width: 200px;
+  width: 150px;
+  margin: 50px 0
+}
+
+footer {
+  padding-top: 20px;
+}
+
+.ikoner {
+  height: 40px;
+  width: 40px;
+  margin: 5px;
 }
 
 h3 {
@@ -153,4 +176,23 @@ h3 {
 
 p {
   color: white;
+}
+
+button {
+  background-color: var(--sec-color);
+  border: none;
+  margin: 10px 0;
+  width: fit-content;
+  padding: 5px 15px;
+  color: white;
+  cursor: pointer;
+}
+
+input {
+  height: 27px;
+}
+
+#copyright {
+  font-weight: lighter;
+  margin-top: 9px;
 }
