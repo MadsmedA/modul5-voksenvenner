@@ -18,6 +18,10 @@ body {
     margin: 0;
 }
 
+button:focus, input:focus {
+    outline: none;
+}
+
 header {
     display: flex;
     justify-content: center;
@@ -104,6 +108,7 @@ header nav .dropdown:hover i {
 
 header .search {
     display: flex;
+    align-items: center;
     background-color: #80CFEF;
     padding: 5px;
     margin: 5px;
@@ -120,12 +125,8 @@ header .search input {
     color: white;
 }
 
-header .search input:focus {
-    outline: none;
-}
-
 main {
-    height: 200px;
+    height: auto;
 }
 
 footer {
