@@ -127,7 +127,9 @@ header .search input {
 
 main {
     display: flex;
-    justify-content: center;
+    flex-direction: column;
+    /* justify-content: center; */
+    align-items: center;
     width: 100%;
 }
 
@@ -135,7 +137,24 @@ main .main-container {
     width: 1000px;
     display: flex;
     flex-direction: column;
+    align-items: center;
 }
+
+main .main-container h1 {
+    background-color: var(--prim-color);
+    width: fit-content;
+    color: white;
+    font-size: 40px;
+    text-align: center;
+    letter-spacing: 5px;
+    padding: 5px 15px;
+}
+
+main .main-container p {
+    color: black;
+    text-align: left;
+}
+
 
 footer {
   display: flex;
