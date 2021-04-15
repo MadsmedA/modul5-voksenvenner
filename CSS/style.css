@@ -126,7 +126,15 @@ header .search input {
 }
 
 main {
-    height: auto;
+    display: flex;
+    justify-content: center;
+    width: 100%;
+}
+
+main .main-container {
+    width: 1000px;
+    display: flex;
+    flex-direction: column;
 }
 
 footer {
