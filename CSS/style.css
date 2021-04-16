@@ -488,14 +488,39 @@ input {
   align-items: center;
 }
 
-.kontorBox {
-  Width: 200px;
-  height: 200px;
-  background-color: var(--prim-color);
-  border-radius: 25px;
+.omegaBox{
+  display: flex;
 }
 
-.kontorBoxTxt {
+.kontorBox {
+  Width: 220px;
+  height: auto;
+  background-color: var(--prim-color);
+  border-radius: 25px;
+  margin: 20px;
+  box-shadow: rgba(0, 0, 0, 0.19) 0px 10px 20px, rgba(0, 0, 0, 0.23) 0px 6px 6px;
+}
+
+.kontorBox h4{
   font-weight: bold;
   font-size: 25px;
+  padding-left: 15px;
+  margin-bottom: 10px;
+  margin-top: 10px;
+}
+
+.kontorBox p{
+  padding-left: 15px;
+}
+
+.kontorBox p.kontakt{
+  color:white;
+  font-weight: bold;
+  padding-left: 15px;
+  margin-bottom: 10px;
+}
+.kontorBox button{
+  margin-left: 15px;
+  border-radius: 8px;
+  font-weight: bold;
 }
