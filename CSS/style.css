@@ -177,10 +177,11 @@ main .main-container p:first-of-type {
 main .forside-billede {
   width: 100%;
   max-height: 1000px;
+  position: relative;
 }
 
 
-main .cta-tilmeld {
+main .cta-bliv-frivillig {
     background-color: var(--sec-color);
     width: 200px;
     height: 50px;
@@ -191,8 +192,8 @@ main .cta-tilmeld {
     color: white;
     cursor: pointer;
     position: absolute;
-    top: 900px;
-    left: 200px;
+    top: 400px;
+    left: 160px;
     font-size: 15px;
     text-transform: uppercase;
     font-weight: bold;
@@ -211,7 +212,7 @@ main .collapsible {
   color: white;
   cursor: pointer;
   padding: 18px;
-  width: 300px;
+  width: 350px;
   border: none;
   text-align: left;
   outline: none;
@@ -228,7 +229,7 @@ main .active, .collapsible:hover {
 main .content {
   padding: 0 18px;
   max-height: 0px;
-  max-width: 300px;
+  max-width: 350px;
   overflow: hidden;
   transition: max-height 0.2s ease-out;
   background-color: var(--prim-color);
@@ -299,8 +300,7 @@ p1 {
   border-radius: 75px;
   background: #00A0DF;
   margin-top: 20px;
-  margin-bottom: 25px;
-  padding: 15px;
+  padding: 20px;
 
 }
 
@@ -487,4 +487,16 @@ input {
   display: flex;
   justify-content: center;
   align-items: center;
+}
+
+.kontorBox {
+  Width: 200px;
+  height: 200px;
+  background-color: var(--prim-color);
+  border-radius: 25px;
+}
+
+.kontorBoxTxt {
+  font-weight: bold;
+  font-size: 25px;
 }
