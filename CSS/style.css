@@ -256,7 +256,7 @@ main .bliv-medlem-button {
   top: 1850px;
 }
 
-/*------------------------Julles shit--------------------*/
+/*------------------------artikler--------------------*/
 
 .responsive {
   width: 100%;
@@ -272,15 +272,9 @@ section .section-container {
 }
 
 
-
-
-
-/* ------------------------------- Gallery ----------------------------------- */
-
-
 #mywork {
 	display: block;
-	background-color: #fff;
+
 }
 
 #mywork .section-container {
@@ -337,7 +331,7 @@ input {
 text-align: center;
 
 }
-/* ------------------------------- julles shit slut ----------------------------------- */
+/* ------------------------------- slut ----------------------------------- */
 
 .frivillig-img-container {
     position: relative;
