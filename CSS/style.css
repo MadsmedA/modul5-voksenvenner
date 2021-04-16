@@ -457,6 +457,11 @@ input {
   align-items: center;
 }
 
+.vision-mission {
+  font-style: italic;
+  text-align-last: center;
+}
+
 .sticky {
     position: fixed;
     top: 0;
@@ -481,4 +486,16 @@ input {
   display: flex;
   justify-content: center;
   align-items: center;
+}
+
+.kontorBox {
+  Width: 200px;
+  height: 200px;
+  background-color: var(--prim-color);
+  border-radius: 25px;
+}
+
+.kontorBoxTxt {
+  font-weight: bold;
+  font-size: 25px;
 }
