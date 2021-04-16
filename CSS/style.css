@@ -474,6 +474,7 @@ input {
 .sticky + main {
     padding-top: 100px;
 }
+
 .kontaktTextbox {
   position: absolute;
   background-color: white;
