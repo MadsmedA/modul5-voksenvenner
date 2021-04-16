@@ -169,8 +169,6 @@ main .main-container p {
     text-align: left;
 }
 
-<<<<<<< Updated upstream
-=======
 main .main-container p:first-of-type {
     margin-top: 5px;
 }
@@ -257,7 +255,6 @@ main .bliv-medlem-button {
 
 
 
->>>>>>> Stashed changes
 .frivillig-img-container {
     position: relative;
 }
