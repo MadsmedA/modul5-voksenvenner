@@ -230,7 +230,8 @@ main .content {
   max-width: 300px;
   overflow: hidden;
   transition: max-height 0.2s ease-out;
-  background-color: #f1f1f1;
+  background-color: var(--prim-color);
+  color: white;
 }
 
 
