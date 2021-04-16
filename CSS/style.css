@@ -378,6 +378,20 @@ input {
   align-items: center;
 }
 
+<<<<<<< HEAD
+=======
+
+.sticky {
+    position: fixed;
+    top: 0;
+    width: 100%
+}
+
+.sticky + main {
+    padding-top: 100px;
+}
+
+>>>>>>> 5a6933edd64f81b31ca1b343baec442fa8dd72d0
 .kontaktTextbox {
   position: absolute;
   background-color: white;
