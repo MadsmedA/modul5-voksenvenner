@@ -264,3 +264,22 @@ input {
   font-weight: lighter;
   margin-top: 9px;
 }
+
+#om-os-img {
+  position: relative;
+}
+
+.textbox {
+  position: absolute;
+  background-color: white;
+  opacity: 89%;
+  height: 200px;
+  width: 400px;
+  padding: 20px;
+  border-radius: 34px;
+  font-size: 20px;
+  top: 25%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
