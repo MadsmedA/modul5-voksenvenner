@@ -557,9 +557,31 @@ main .main-container .mulige-kommuner {
   flex-wrap: wrap;
 }
 
+<<<<<<< Updated upstream
 main .main-container .mulige-kommuner a {
   width: 25%;
   padding-bottom: 10px;
   text-decoration: none;
   color: var(--prim-color);
 }
+=======
+/*Her begynder css til kontaktformular*/
+form {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  align-items: flex-start;
+  margin-bottom: 50px;
+}
+
+#email, #emne {
+  width: 550px;
+  border-radius: 10px;
+}
+
+#beskrivelse {
+  width: 550px;
+  height: 200px;
+  border-radius: 10px;
+}
+>>>>>>> Stashed changes
