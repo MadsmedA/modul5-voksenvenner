@@ -520,6 +520,10 @@ main .main-container .kommuner select option {
   padding: 25px;
 }
 
+main .main-container .kommuner select option:first-of-type {
+  display: none;
+}
+
 main .main-container .mulige-kommuner {
   width: 100%;
   padding: 10px;
