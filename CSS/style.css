@@ -457,6 +457,11 @@ input {
   align-items: center;
 }
 
+.vision-mission {
+  font-style: italic;
+  text-align-last: center;
+}
+
 .sticky {
     position: fixed;
     top: 0;
