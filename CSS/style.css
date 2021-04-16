@@ -272,6 +272,10 @@ input {
   position: relative;
 }
 
+.kontakt-img {
+  position: relative;
+}
+
 .textbox {
   position: absolute;
   background-color: white;
@@ -287,6 +291,7 @@ input {
   align-items: center;
 }
 
+<<<<<<< Updated upstream
 
 .sticky {
     position: fixed;
