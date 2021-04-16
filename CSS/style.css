@@ -169,8 +169,6 @@ main .main-container p {
     text-align: left;
 }
 
-<<<<<<< Updated upstream
-=======
 main .main-container p:first-of-type {
     margin-top: 5px;
 }
@@ -256,6 +254,8 @@ main .bliv-medlem-button {
 
 /*------------------------Julles shit--------------------*/
 
+<<<<<<< HEAD
+=======
 .responsive {
   width: 100%;
   height: auto;
@@ -339,6 +339,7 @@ text-align: center;
 
 
 >>>>>>> Stashed changes
+>>>>>>> 179b5c382fb822c14148b8671849009d467d4310
 .frivillig-img-container {
     position: relative;
 }
@@ -464,6 +465,8 @@ input {
   align-items: center;
 }
 
+<<<<<<< HEAD
+=======
 
 .sticky {
     position: fixed;
@@ -475,6 +478,7 @@ input {
     padding-top: 100px;
 }
 
+>>>>>>> 5a6933edd64f81b31ca1b343baec442fa8dd72d0
 .kontaktTextbox {
   position: absolute;
   background-color: white;
