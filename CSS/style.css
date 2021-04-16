@@ -292,7 +292,6 @@ input {
   align-items: center;
 }
 
-<<<<<<< Updated upstream
 
 .sticky {
     position: fixed;
@@ -302,7 +301,7 @@ input {
 
 .sticky + main {
     padding-top: 100px;
-=======
+}
 .kontaktTextbox {
   position: absolute;
   background-color: white;
@@ -317,5 +316,4 @@ input {
   display: flex;
   justify-content: center;
   align-items: center;
->>>>>>> Stashed changes
 }
