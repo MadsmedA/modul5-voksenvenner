@@ -254,7 +254,88 @@ main .bliv-medlem-button {
   top: 1850px;
 }
 
+/*------------------------Julles shit--------------------*/
 
+.responsive {
+  width: 100%;
+  height: auto;
+}
+
+section .section-container {
+	max-width: 1000px;
+	margin: 0 auto;
+	overflow: hidden;
+	padding: 0 20px;
+	text-align: center;
+}
+
+
+
+
+
+/* ------------------------------- Gallery ----------------------------------- */
+
+
+#mywork {
+	display: block;
+	background-color: #fff;
+}
+
+#mywork .section-container {
+	padding-bottom: 80px;
+}
+
+.mywork-section {
+	margin: 20px;
+	width: 45%;
+	display: inline-block;
+	background-color: #f1f1f1;
+}
+
+.mywork-section p {
+	width: 90%;
+	margin: 0 auto 20px auto;
+}
+
+p1 {
+  font-size: 45px;
+  font-weight: 600;
+  color: white;
+  border-radius: 75px;
+  background: #00A0DF;
+  margin-top: 20px;
+  padding: 20px;
+
+}
+
+p2 {
+  font-size: 40px;
+  font-weight: 400;
+
+}
+
+button {
+  background-color: var(--sec-color);
+  border: none;
+  margin: 10px 0;
+  width: fit-content;
+  padding: 5px 15px;
+  color: white;
+  cursor: pointer;
+}
+button:focus, input:focus {
+    outline: none;
+}
+
+input {
+  height: 27px;
+}
+
+.nyhedsbrev{
+text-align: center;
+
+}
+/* ------------------------------- julles shit slut ----------------------------------- */
 
 
 >>>>>>> Stashed changes
