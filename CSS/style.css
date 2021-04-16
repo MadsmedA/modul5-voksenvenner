@@ -178,6 +178,7 @@ main .forside-billede {
   max-height: 1000px;
 }
 
+
 main .cta-tilmeld {
     background-color: var(--sec-color);
     width: 200px;
@@ -198,7 +199,6 @@ main .cta-tilmeld {
 
 main .roll-down-container {
   display: flex;
-  justify-content: space-between;
   max-width: 100%;
   margin-top: 50px;
 }
@@ -206,6 +206,7 @@ main .roll-down-container {
 
 main .collapsible {
   background-color: #00a0df;
+  margin: 0px;
   color: white;
   cursor: pointer;
   padding: 18px;
@@ -222,14 +223,17 @@ main .active, .collapsible:hover {
   opacity: 75%;
 }
 
+
 main .content {
   padding: 0 18px;
   max-height: 0px;
-  max-width: 0px;
+  max-width: 300px;
   overflow: hidden;
   transition: max-height 0.2s ease-out;
   background-color: #f1f1f1;
 }
+
+
 
 main .material-icons {
   position: relative;
