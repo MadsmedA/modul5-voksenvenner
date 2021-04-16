@@ -253,8 +253,6 @@ main .bliv-medlem-button {
 }
 
 
-
-
 .frivillig-img-container {
     position: relative;
 }
@@ -380,16 +378,6 @@ input {
   align-items: center;
 }
 
-
-.sticky {
-    position: fixed;
-    top: 0;
-    width: 100%
-}
-
-.sticky + main {
-    padding-top: 100px;
-}
 .kontaktTextbox {
   position: absolute;
   background-color: white;
