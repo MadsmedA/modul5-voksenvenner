@@ -540,11 +540,6 @@ main .main-container .kommuner select {
   padding: 10px;
 }
 
-main .main-container .kommuner select:active {
-  transform: rotateX(180deg);
-  transition: transform 0.3s ease;
-}
-
 main .main-container .kommuner select option {
   font-size: 14px;
   padding: 25px;
