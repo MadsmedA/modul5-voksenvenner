@@ -5,7 +5,6 @@ console.log('script.js is running...');
 const header = document.getElementById('header');
 const sticky = header.offsetTop;
 
-
 function addStickyClassToHeader() {
     if (window.pageYOffset > sticky) {
         header.classList.add("sticky");
