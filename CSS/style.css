@@ -211,7 +211,7 @@ main .collapsible {
   color: white;
   cursor: pointer;
   padding: 18px;
-  width: 300px;
+  width: 350px;
   border: none;
   text-align: left;
   outline: none;
@@ -228,7 +228,7 @@ main .active, .collapsible:hover {
 main .content {
   padding: 0 18px;
   max-height: 0px;
-  max-width: 300px;
+  max-width: 350px;
   overflow: hidden;
   transition: max-height 0.2s ease-out;
   background-color: var(--prim-color);
