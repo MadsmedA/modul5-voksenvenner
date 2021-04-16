@@ -526,3 +526,45 @@ input {
   font-weight: bold;
 }
 
+main .main-container .kommuner {
+  width: 100%;
+  display: flex;
+}
+
+main .main-container .kommuner select {
+  font-size: 18px;
+  height: 50px;
+  background-color: var(--prim-color);
+  color: white;
+  border: none;
+  padding: 10px;
+}
+
+main .main-container .kommuner select:active {
+  transform: rotateX(180deg);
+  transition: transform 0.3s ease;
+}
+
+main .main-container .kommuner select option {
+  font-size: 14px;
+  padding: 25px;
+}
+
+main .main-container .kommuner select option:first-of-type {
+  display: none;
+}
+
+main .main-container .mulige-kommuner {
+  width: 100%;
+  padding: 10px;
+  font-size: 18px;
+  display: flex;
+  flex-wrap: wrap;
+}
+
+main .main-container .mulige-kommuner a {
+  width: 25%;
+  padding-bottom: 10px;
+  text-decoration: none;
+  color: var(--prim-color);
+}
