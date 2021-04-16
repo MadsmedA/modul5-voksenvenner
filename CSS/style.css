@@ -301,4 +301,20 @@ input {
 
 .sticky + main {
     padding-top: 100px;
+=======
+.kontaktTextbox {
+  position: absolute;
+  background-color: white;
+  opacity: 70%;
+  height: 120px;
+  width: 400px;
+  padding: 30px;
+  border-radius: 12px;
+  font-size: 20px;
+  top: 48%;
+  right: 25%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+>>>>>>> Stashed changes
 }
