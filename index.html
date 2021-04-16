@@ -9,6 +9,7 @@
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.3/css/all.min.css"
         integrity="sha512-iBBXm8fW90+nuLcSKlbmrPcLa0OT92xO1BIsZ+ywDWZCvqsWgccV3gFoRBv0z+8dLJgyAHIhR35VZc2oM/gI1w=="
         crossorigin="anonymous" />
+        <link href="https://fonts.googleapis.com/icon?family=Material+Icons"rel="stylesheet">
     <script src="script.js" defer></script>
     <title>Bliv voksenven</title>
 </head>
@@ -59,7 +60,96 @@
             </div>
         </div>
     </header>
-    <main></main>
+
+
+
+    
+    <main>
+
+      <div class="forside-billede-container">
+        <img src="img/forside/forside-billede.png" alt="" class="forside-billede">
+        <button type="button" name="button" class="cta-tilmeld">Bliv frivillig</button>
+      </div>
+
+      <div class="roll-down-container">
+          <button class="collapsible">Hvem kan blive voksenven?<i class="material-icons">expand_more</i></button>
+          <div class="content">
+            <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.</p>
+          </div>
+
+          <button class="collapsible">Hvordan skaber vi venskaber?<i class="material-icons">expand_more</i></button>
+          <div class="content">
+            <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.</p>
+          </div>
+
+          <button class="collapsible">Hvad laver i sammen?<i class="material-icons">expand_more</i></button>
+          <div class="content">
+            <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.</p>
+          </div>
+
+          <button class="collapsible">Hvad laver i sammen?<i class="material-icons">expand_more</i></button>
+          <div class="content">
+            <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.</p>
+          </div>
+        </div>
+
+        <script>
+        var coll = document.getElementsByClassName("collapsible");
+        var i;
+
+        for (i = 0; i < coll.length; i++) {
+          coll[i].addEventListener("click", function() {
+            this.classList.toggle("active");
+            var content = this.nextElementSibling;
+            if (content.style.maxHeight){
+              content.style.maxHeight = null;
+            } else {
+              content.style.maxHeight = content.scrollHeight + "px";
+            }
+          });
+        }
+        </script>
+
+
+
+    <div class="img-bliv-medlem-container">
+      <div class="titel-container">
+        <h1 class="støt-venskab">Støt et venskab</h1>
+      </div>
+
+      <img src="img/forside/bliv-medlem.png" alt="" class="img-bliv-medlem">
+
+      <div class="bliv-medlem-button">
+        <button class="collapsible">Bliv medlem<i class="material-icons">expand_more</i></button>
+        <div class="content">
+          <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.</p>
+        </div>
+      </div>
+   </div>
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+    </main>
     <footer>
         <div class="footer-container">
             <div>

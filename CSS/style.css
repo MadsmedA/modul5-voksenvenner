@@ -29,6 +29,8 @@ h1 {
     text-align: center;
     letter-spacing: 5px;
     padding: 5px 15px;
+    border-radius: 25px;
+    text-transform: uppercase;
 }
 
 button:focus, input:focus {
@@ -167,6 +169,95 @@ main .main-container p {
     text-align: left;
 }
 
+<<<<<<< Updated upstream
+=======
+main .main-container p:first-of-type {
+    margin-top: 5px;
+}
+
+main .forside-billede {
+  width: 100%;
+  max-height: 1000px;
+}
+
+main .cta-tilmeld {
+    background-color: var(--sec-color);
+    width: 200px;
+    height: 50px;
+    border: none;
+    border-radius: 25px;
+    margin: 10px 0;
+    padding: 10px 15px;
+    color: white;
+    cursor: pointer;
+    position: absolute;
+    top: 900px;
+    left: 200px;
+    font-size: 15px;
+    text-transform: uppercase;
+    font-weight: bold;
+}
+
+main .roll-down-container {
+  display: flex;
+  justify-content: space-between;
+  max-width: 100%;
+  margin-top: 50px;
+}
+
+
+main .collapsible {
+  background-color: #00a0df;
+  color: white;
+  cursor: pointer;
+  padding: 18px;
+  width: 300px;
+  border: none;
+  text-align: left;
+  outline: none;
+  font-size: 15px;
+  font-weight: bold;
+}
+
+main .active, .collapsible:hover {
+  background-color: #00a0df;
+  opacity: 75%;
+}
+
+main .content {
+  padding: 0 18px;
+  max-height: 0px;
+  max-width: 0px;
+  overflow: hidden;
+  transition: max-height 0.2s ease-out;
+  background-color: #f1f1f1;
+}
+
+main .material-icons {
+  position: relative;
+  float: right;
+}
+
+main .img-bliv-medlem {
+  width: 100%;
+  max-height: 1000px;
+}
+
+
+main .titel-container {
+  padding-top: 200px;
+}
+
+main .bliv-medlem-button {
+  position: absolute;
+  left: 250px;
+  top: 1850px;
+}
+
+
+
+
+>>>>>>> Stashed changes
 .frivillig-img-container {
     position: relative;
 }
