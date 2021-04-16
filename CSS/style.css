@@ -9,6 +9,10 @@
     --sec-color: #e30c17;
 }
 
+html {
+    scroll-behavior: smooth;
+}
+
 body {
     font-family: 'Source Sans Pro', sans-serif;
     background-color: #f9fafb;
@@ -37,6 +41,7 @@ header {
     justify-content: center;
     width: 100%;
     background-color: var(--prim-color);
+    z-index: 1;
 }
 
 header .header-container {
@@ -138,8 +143,11 @@ header .search input {
 main {
     display: flex;
     flex-direction: column;
-    /* justify-content: center; */
     align-items: center;
+    width: 100%;
+}
+
+main img {
     width: 100%;
 }
 
@@ -282,4 +290,15 @@ input {
   display: flex;
   justify-content: center;
   align-items: center;
+}
+
+
+.sticky {
+    position: fixed;
+    top: 0;
+    width: 100%
+}
+
+.sticky + main {
+    padding-top: 100px;
 }

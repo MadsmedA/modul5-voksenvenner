@@ -9,29 +9,33 @@
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.3/css/all.min.css"
         integrity="sha512-iBBXm8fW90+nuLcSKlbmrPcLa0OT92xO1BIsZ+ywDWZCvqsWgccV3gFoRBv0z+8dLJgyAHIhR35VZc2oM/gI1w=="
         crossorigin="anonymous" />
-    <script src="script.js" defer></script>
+    <script src="../script.js" defer></script>
     <title>Bliv frivillig</title>
 </head>
 
 <body>
 
-    <header>
+    <header id="header">
         <div class="header-container">
             <div>
-                <a href="index.html"><img src="../img/forside/logo-hvid-tekst.png" alt="Logo"></a>
+                <a href="../index.html"><img src="../img/forside/logo-hvid-tekst.png" alt="Logo"></a>
             </div>
             <nav>
                 <div class="dropdown">
-                    <button class="dropdownbtn">Bliv frivillig</button>
+                    <a href="../undersider/bliv_frivillig.html">
+                        <button class="dropdownbtn">Bliv frivillig</button>
+                    </a>
                     <i class="fas fa-chevron-down"></i>
                     <div class="dropdown-content">
                         <a href="">Godkendelsesproces</a>
-                        <a href="">Bliv voksenven</a>
-                        <a href="">Om vores børn og deres familier</a>
+                        <a href="../undersider/bliv_frivillig.html#bliv-frivillig">Bliv voksenven</a>
+                        <a href="../undersider/bliv_frivillig.html#vores-børn">Om vores børn og deres familier</a>
                     </div>
                 </div>
                 <div class="dropdown">
-                    <button class="dropdownbtn">Om os</button>
+                    <a href="../undersider/om_os.html">
+                        <button class="dropdownbtn">Om os</button>
+                    </a>
                     <i class="fas fa-chevron-down"></i>
                     <div class="dropdown-content">
                         <a href="">Vision og mission</a>
@@ -40,7 +44,9 @@
                     </div>
                 </div>
                 <div class="dropdown">
-                    <button class="dropdownbtn">Kontakt</button>
+                    <a href="../underside/kontakt.html">
+                        <button class="dropdownbtn">Kontakt</button>
+                    </a>
                     <i class="fas fa-chevron-down"></i>
                     <div class="dropdown-content">
                         <a href="">Lokalt</a>
@@ -55,11 +61,11 @@
         </div>
     </header>
 
-    <img src="../img/kajak-info.png" alt="">
 
     <main>
+        <img src="../img/kajak-info.png" alt="">
         <div class="main-container">
-            <h1>BLIV FRIVILLIG</h1>
+            <h1 id="bliv-frivillig">BLIV FRIVILLIG</h1>
             <section class="tekst-holder">
                 <p>Som frivillig i Børns Voksenvenner er du med til at gøre en forskel for sårbare børn og unge, som
                     savner
@@ -95,7 +101,7 @@
                     Du kan fx blive matcher og skabe venskaber, du kan hjælpe med fundraising, events og kommunikation,
                     eller du kan stille op til bestyrelsen i en lokalforening.</p>
             </section>
-            <h2>Om vores børn og deres familier</h2>
+            <h2 id="vores-børn">Om vores børn og deres familier</h2>
             <section class="tekst-holder">
                 <p>Børns Voksenvenner hjælper helt almindelige børn med helt almindelige problemer. Børn af
                     misbrugsforældre eller børn med diagnoser, kan vi ikke hjælpe.</p>
