@@ -24,7 +24,6 @@ body {
 
 h1 {
     background-color: var(--prim-color);
-    width: fit-content;
     color: white;
     font-size: 40px;
     text-align: center;
@@ -165,10 +164,6 @@ main .main-container h2 {
 main .main-container p {
     color: black;
     text-align: left;
-}
-
-main .main-container p:first-of-type {
-    margin-top: 5px;
 }
 
 .frivillig-img-container {
