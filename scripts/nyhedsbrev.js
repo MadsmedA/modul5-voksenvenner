@@ -15,21 +15,13 @@ $('#email').keyup(function() {
         $(this).css('color', '#2bb673');
  $('.addbut1').prop('disabled', false);
     }
-
-
-
-    function validatorBtn() {
-      var green = $(this).css(email);
-      var red = $(this).css(email);
-
-      console.log(green);
-
-
-      if (green == 'color', 'green') {
-        alert('Mange tak for din tilmeldelse')
-      } else (var == 'color', 'red')
-        alert('den indtastede mail er ikke korrekt')
-
-
-    }
 });
+
+newsletter.handleInputKeypress = (e) => {
+    if (e.keyCode === 13) {
+        e.preventDefault();
+        newsletter.submitForm();
+    }
+}
+newsletter.input.addEventListener('keypress', (e) => newsletter.handleInputKeypress(e));
+document.addEventListener('click', (e) => newsletter.clickHandler(e));
