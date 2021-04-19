@@ -15,4 +15,21 @@ $('#email').keyup(function() {
         $(this).css('color', '#2bb673');
  $('.addbut1').prop('disabled', false);
     }
+
+
+
+    function validatorBtn() {
+      var green = $(this).css(email);
+      var red = $(this).css(email);
+
+      console.log(green);
+
+
+      if (green == 'color', 'green') {
+        alert('Mange tak for din tilmeldelse')
+      } else (var == 'color', 'red')
+        alert('den indtastede mail er ikke korrekt')
+
+
+    }
 });
