@@ -25,7 +25,6 @@ body {
 h1 {
     background-color: var(--prim-color);
     color: white;
-    width: fit-content;
     font-size: 40px;
     text-align: center;
     letter-spacing: 5px;
@@ -357,16 +356,21 @@ text-align: center;
   color: black;
   margin: 10px 0px 0px 0px;
 }
-.main>#singular-form>#email-input>button {
-    position: absolute;
-    top: 0;
-    right: 0;
-    height: 100%;
-    background-color: #fbb016;
-    color: white;
-    opacity: 0;
-    transform: scale(0);
-    transition: all .6s ease .4s;
+
+.main>#singular-form button {
+    width: 9rem;
+    padding: 10;
+    border: none;
+    outline: none;
+    border-radius: 3rem;
+    cursor: pointer;
+}
+.main>#singular-form>button#subs {
+    padding: 0;
+    width: 100%;
+    color: #fbb016;
+    background-color: transparent;
+    z-index: 3;
 }
 /* ------------------------------- slut ----------------------------------- */
 
