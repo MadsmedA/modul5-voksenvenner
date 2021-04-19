@@ -291,7 +291,6 @@ section .section-container {
 
 #mywork {
 	display: block;
-
 }
 
 #mywork .section-container {
@@ -346,7 +345,17 @@ input {
 
 .nyhedsbrev{
 text-align: center;
+}
 
+.nyhedsbrev h2 {
+  font-size: 35px;
+  font-family: 'Source Sans Pro';
+  margin: 40px 0px 0px 0px;
+}
+
+.nyhedsbrev h3 {
+  color: black;
+  margin: 10px 0px 0px 0px;
 }
 /* ------------------------------- slut ----------------------------------- */
 
@@ -598,15 +607,4 @@ form {
   width: 550px;
   height: 200px;
   border-radius: 10px;
-}
-
-.nyhedsbrev h2 {
-  font-size: 35px;
-  font-family: 'Source Sans Pro';
-  margin: 40px 0px 0px 0px;
-}
-
-.nyhedsbrev h3 {
-  color: black;
-  margin: 10px 0px 0px 0px;
 }
