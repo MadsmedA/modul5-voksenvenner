@@ -12,8 +12,9 @@
     <script src="../script.js" defer>
     </script>
     <script src="../scripts/kommuner.js" defer></script>
+    <script src="../scripts/scroll.js" defer></script>
     <script defer src="../scripts/kontaktformular.js"></script>
-    <title>kontakt</title>
+    <title>Kontakt</title>
 </head>
 
 <body>
@@ -57,6 +58,12 @@
             </div>
         </div>
     </header>
+
+      <div class="overAll">
+        <div class="progress-container">
+          <div class="progress-bar" id="minBar"></div>
+        </div>
+      </div>
 
     <main>
         <img src="../img/kontakt/gyngeWoo2.png" class="kontakt-img" alt="">
@@ -200,9 +207,11 @@
                 <h3>Følg med</h3>
                 <p style="font-weight: bold; font-size: 15px;">Tilmeld nyhedsbrev</p>
                 <div class="email-container">
-                    <input type="email"></input>
-                    <button> Tilmeld </button>
+                    <input type="text" placeholder="Indtast email" id="email">
+                    <button onclick="validatorBtn()" type="button" class="addbut1" disabled="disabled">Tilmeld</button>
                 </div>
+                <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.4.1/jquery.min.js"></script>
+                <script  src="../scripts/nyhedsbrev.js"></script>
                 <br>
                 <p id="copyright">Copyright © 2021 Gruppe 13. All Rights Reserved </p>
             </div>
