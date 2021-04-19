@@ -290,6 +290,7 @@ section .section-container {
 
 #mywork {
 	display: block;
+
 }
 
 #mywork .section-container {
@@ -308,22 +309,6 @@ section .section-container {
 	margin: 0 auto 20px auto;
 }
 
-p1 {
-  font-size: 45px;
-  font-weight: 600;
-  color: white;
-  border-radius: 75px;
-  background: #00A0DF;
-  margin-top: 20px;
-  padding: 20px;
-
-}
-
-p2 {
-  font-size: 40px;
-  font-weight: 400;
-
-}
 
 button {
   background-color: var(--sec-color);
@@ -344,17 +329,7 @@ input {
 
 .nyhedsbrev{
 text-align: center;
-}
 
-.nyhedsbrev h2 {
-  font-size: 35px;
-  font-family: 'Source Sans Pro';
-  margin: 40px 0px 0px 0px;
-}
-
-.nyhedsbrev h3 {
-  color: black;
-  margin: 10px 0px 0px 0px;
 }
 
 .main>#singular-form button {
@@ -624,8 +599,6 @@ form {
   height: 200px;
   border-radius: 10px;
 }
-<<<<<<< HEAD
-=======
 
 .nyhedsbrev h2 {
   font-size: 35px;
