@@ -44,9 +44,8 @@ function validerBeskrivelse () {
 function sendInfo (e) {
 e.preventDefault()
   if (validerEmail() && validerEmne() && validerBeskrivelse()) {
-    console.log ("Tak for info")
+    alert ("Tak for info")
   }
   else {
-    console.log ("Udfyld alle felter")
   }
 }
