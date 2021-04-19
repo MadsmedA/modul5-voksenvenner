@@ -348,6 +348,7 @@ input {
 text-align: center;
 
 }
+
 /* ------------------------------- slut ----------------------------------- */
 
 .frivillig-img-container {
@@ -590,8 +591,9 @@ form {
 }
 
 #email, #emne {
-  width: 550px;
+  width: 250px;
   border-radius: 10px;
+
 }
 
 #beskrivelse {
