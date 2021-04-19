@@ -13,6 +13,7 @@ sendknap.addEventListener("click", sendInfo);
 
 function validerEmail () {
   if (email.value === "") {
+    alert ("Skriv en email")
     return false
   }
   else {
@@ -22,7 +23,7 @@ function validerEmail () {
 
 function validerEmne () {
   if (emne.value === "") {
-    console.log ("Udfyld emnefelt")
+    alert ("Udfyld emnefelt")
     return false
   }
   else {
@@ -32,6 +33,7 @@ function validerEmne () {
 
 function validerBeskrivelse () {
   if (beskrivelse.value === "") {
+    alert ("Udfyld beskrivelsesfelt")
     return false
   }
   else {
