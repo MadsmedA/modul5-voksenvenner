@@ -20,39 +20,42 @@
 
 <body>
 
-    <header>
+    <header id="header">
         <div class="header-container">
             <div>
                 <a href="../index.html"><img src="../img/forside/logo-hvid-tekst.png" alt="Logo"></a>
             </div>
             <nav>
                 <div class="dropdown">
-                  <a href="../undersider/bliv_frivillig.html">
-                    <button class="dropdownbtn">Bliv frivillig</button>
+                    <a href="../undersider/bliv_frivillig.html">
+                        <button class="dropdownbtn">Bliv frivillig</button>
+                    </a>
                     <i class="fas fa-chevron-down"></i>
                     <div class="dropdown-content">
-                        <a href="">Godkendelsesproces</a>
-                        <a href="">Bliv voksenven</a>
-                        <a href="">Om vores børn og deres familier</a>
+                        <a href="../undersider/bliv_frivillig.html">Godkendelsesproces</a>
+                        <a href="../undersider/bliv_frivillig.html#bliv-frivillig">Bliv voksenven</a>
+                        <a href="../undersider/bliv_frivillig.html#vores-børn">Om vores børn og deres familier</a>
                     </div>
                 </div>
                 <div class="dropdown">
-                  <a href="../undersider/om_os.html">
-                    <button class="dropdownbtn">Om os</button>
+                    <a href="../undersider/om_os.html">
+                        <button class="dropdownbtn">Om os</button>
+                    </a>
                     <i class="fas fa-chevron-down"></i>
                     <div class="dropdown-content">
-                        <a href="">Vision og mission</a>
-                        <a href="">Presse, materialer og omtale</a>
-                        <a href="">Nyheder og nyhedsbreve</a>
+                        <a href="../undersider/om_os.html">Vision og mission</a>
+                        <a href="../undersider/om_os.html#presse">Presse, materialer og omtale</a>
+                        <a href="../undersider/om_os.html#nyhedsbrev">Nyheder og nyhedsbreve</a>
                     </div>
                 </div>
                 <div class="dropdown">
-                  <a href="../undersider/kontakt.html">
-                    <button class="dropdownbtn">Kontakt</button>
+                    <a href="../undersider/kontakt.html">
+                        <button class="dropdownbtn">Kontakt</button>
+                    </a>
                     <i class="fas fa-chevron-down"></i>
                     <div class="dropdown-content">
-                        <a href="">Lokalt</a>
-                        <a href="">Områdekontorer</a>
+                        <a href="../undersider/kontakt.html#lokalt">Lokalt</a>
+                        <a href="../undersider/kontakt.html#områdekontorer">Områdekontorer</a>
                     </div>
                 </div>
             </nav>
@@ -63,11 +66,11 @@
         </div>
     </header>
 
-      <div class="overAll">
+    <div class="overAll">
         <div class="progress-container">
-          <div class="progress-bar" id="minBar"></div>
+            <div class="progress-bar" id="minBar"></div>
         </div>
-      </div>
+    </div>
 
     <main>
         <img src="../img/kontakt/gyngeWoo2.png" class="kontakt-img" alt="">
@@ -79,7 +82,7 @@
                     en af vores mange glade voksenvenner i dag!
                 </p>
             </div>
-            <h1>LOKALT</h1>
+            <h1 id="lokalt">LOKALT</h1>
             <section>
                 <p>
                     Vi er til stede i omkring 60 kommuner. Der kan du høre mere om at være frivillig voksenven,
@@ -100,7 +103,7 @@
                 </select>
                 <div class="mulige-kommuner" id="kommuner"></div>
             </div>
-            <h1>OMRÅDEKONTORER</h1>
+            <h1 id="områdekontorer">OMRÅDEKONTORER</h1>
             <section>
                 <p>
                     Vi har seks områdekontorer fordelt i Jylland, på Fyn og på Sjælland. Områdekontorerne understøtter
@@ -213,10 +216,11 @@
                 <form id="singular-form">
                     <div id="email-input">
                         <input type="text" placeholder="Indtast email" id="email">
-                        <button onclick="validatorBtn()" type="button" class="addbut1" disabled="disabled">Tilmeld</button>
+                        <button onclick="validatorBtn()" type="button" class="addbut1"
+                            disabled="disabled">Tilmeld</button>
                     </div>
                     <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.4.1/jquery.min.js"></script>
-                    <script  src="scripts/nyhedsbrev.js"></script>
+                    <script src="scripts/nyhedsbrev.js"></script>
                 </form>
 
                 <br>
