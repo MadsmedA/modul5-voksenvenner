@@ -1,7 +1,6 @@
 console.log ("javascript is running");
 
-let mail = /^(([^<>()[]\.,;:\s@"]+(.[^<>()[]\.,;:\s@"]+)*)|(".+"))@(([[0-9]{1,3}.[0-9]{1,3}.[0-9]{1,3}.[0-9]{1,3}])|(([a-zA-Z-0-9]+.)+[a-zA-Z]{2,}))$/;
-let email = document.getElementById("email");
+let mail = document.getElementById("email");
 console.log (email);
 let emne = document.getElementById("emne");
 let beskrivelse = document.getElementById("beskrivelse");
@@ -12,7 +11,7 @@ sendknap.addEventListener("click", sendInfo);
 
 
 function validerEmail () {
-  if (email.value === "") {
+  if (mail.value === "") {
     alert ("Skriv en email")
     return false
   }
