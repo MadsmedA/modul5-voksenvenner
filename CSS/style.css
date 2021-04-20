@@ -198,7 +198,7 @@ main .cta-bliv-frivillig {
     cursor: pointer;
     position: absolute;
     top: 400px;
-    left: 160px;
+    left: 190px;
     font-size: 15px;
     text-transform: uppercase;
     font-weight: bold;
@@ -274,7 +274,7 @@ main .titel-container {
 
 main .bliv-medlem-button {
   position: absolute;
-  left: 200px;
+  right: 275px;
   top: 150px;
 }
 
