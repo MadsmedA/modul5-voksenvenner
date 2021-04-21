@@ -1,7 +1,6 @@
 console.log ("javascript is running");
 
-let mail = document.getElementById("email");
-console.log (email);
+let mail = document.getElementById("mail");
 let emne = document.getElementById("emne");
 let beskrivelse = document.getElementById("beskrivelse");
 let sendknap = document.getElementById("sendknap");
