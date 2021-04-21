@@ -3,16 +3,32 @@ var validateEmail = function nyhedsbrev(elementValue) {
     return emailPattern.test(elementValue);
 }
 
-$('#email').keyup(function() {
+// Til footeren
+$('#email').keyup(function () {
 
     var value = $(this).val();
     var valid = validateEmail(value);
 
     if (!valid) {
         $(this).css('color', 'red');
- $('.addbut1').prop('disabled', true);
+        $('.addbut1').prop('disabled', true);
     } else {
         $(this).css('color', '#2bb673');
- $('.addbut1').prop('disabled', false);
+        $('.addbut1').prop('disabled', false);
+    }
+});
+
+// Til nyhedsbrev i bunden af om_os.html
+$('#mail').keyup(function () {
+
+    var value = $(this).val();
+    var valid = validateEmail(value);
+
+    if (!valid) {
+        $(this).css('color', 'red');
+        $('.addbut1').prop('disabled', true);
+    } else {
+        $(this).css('color', '#2bb673');
+        $('.addbut1').prop('disabled', false);
     }
 });
