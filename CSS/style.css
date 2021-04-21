@@ -639,6 +639,7 @@ form {
   width: 550px;
   height: 200px;
   border-radius: 10px;
+  font-family: 'Source Sans Pro', sans-serif;
 }
 
 .nyhedsbrev h2 {
